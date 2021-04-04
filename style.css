@@ -1,0 +1,73 @@
+body {
+	background: lightgray; ;
+	color: rgb(40,40,40);
+	font-family: times;
+	font-size: 19px;
+	font-weight: lighter;
+	width: 700px;
+	margin: 40px;
+}
+h1,h2,h3{
+	font-family: roboto, sans-serif;
+	color: brown;
+	text-align: center;
+
+}
+h1{
+	font-size: 32px;
+	font-weight: bold;
+}
+h2{
+	font-size: 24px;
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+	color:rgb(30,30,30);
+	font-weight: bold;
+	font-family:lora, sans-serif;
+ }
+ a:hover{
+	color: blue;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.container{
+	background-color: #bd9354;
+	padding: 30px
+	border-radius:4px;
+	box-shadow: 0 15px 35px rgba(50,50,93,0.1)
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid black;
+  margin:20px;
+
+}
+@media (max-width: 500px) {
+  /* For a screen < 500px, this CSS will be read */
+  .container {
+  	background-color:purple ;
+    width: 300px;
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+  	background-color: purple;
+    width: 500px;
+}
+.page-content {
+  margin-left: 200px;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline > li {
+  display: inline;
+  padding: 0px 20px;
+}
